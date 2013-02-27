@@ -1,12 +1,8 @@
 # Conception
 
-<img href="src/org/jewelsea/conception/resources/icons/flower-seed-icon-128.png"/>
+![logo](https://raw.github.com/jewelsea/conception/master/src/org/jewelsea/conception/resources/icons/flower-seed-icon-128.png)
 
 Conception allows you to edit, compile and run Java programs.
-
-### Screen Shot
-
-<img href="http://i.stack.imgur.com/eHkxu.png"/>"
 
 ### Build Prerequisites
  * Oracle JDK 7u15
@@ -20,6 +16,16 @@ The applicaton may be built in NetBeans.
  1. Open the conception project directory in NetBeans.
  2. Choose a run configuration (Default | Standalone | In Browser).
  3. Press the green arrow to run the program.
+ 
+### Deployment Modes 
+
+Conception is deployable as a:
+
+ * Standalone application.
+ * A Java WebStart application.
+ * Browser embedded application.
+
+![screenshot](http://i.stack.imgur.com/eHkxu.png)
  
 ### Deployment Instructions
  
