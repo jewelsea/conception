@@ -1,1 +1,2 @@
 com.sun.tools.javac.api.JavacTool
+org.eclipse.jdt.internal.compiler.tool.EclipseCompiler

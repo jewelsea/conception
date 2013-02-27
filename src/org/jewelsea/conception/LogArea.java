@@ -113,6 +113,8 @@ public class LogArea extends TextArea {
           }
           Thread.currentThread().sleep(50);
         }  
+      } catch (InterruptedIOException ex) {
+        // interrupted io is somewhat expected for our usage case, so ignore it.  
       } catch (IOException ex) {
         // when the target application finishes it seems to close it's output thread,
         // which will result in a Write end dead exception which we can ignore.
